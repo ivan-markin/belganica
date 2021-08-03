@@ -1,0 +1,13 @@
+.title-block {
+    background: no-repeat;
+    min-height: 120px;
+    padding-top: 30px;
+
+    &.red {
+        background-image: url('../../images/red-splash.svg');
+    }
+
+    &.green {
+        background-image: url('../../images/green-splash.svg');
+    }
+}

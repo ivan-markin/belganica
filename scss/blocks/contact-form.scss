@@ -1,0 +1,71 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    max-width: 424px;
+    margin-right: 40px;
+
+    &__input-label {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 22px;        
+
+        & span {
+            font-size: .875rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__input, &__textarea {
+        background: none;
+        border: 2px #fff solid;
+        border-radius: 5px;
+        height: 55px;
+        width: 100%;
+        transition: all .1s;
+        font-size: 1rem;
+        font-weight: 500;
+        color: white;
+        padding: 0 18px;
+
+        &:focus, &:active {
+            border-color: $golden;
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #7F7F7F;
+        }
+    }
+
+    &__textarea {
+        min-height: 5.75rem;
+        max-width: 100%;
+        min-width: 100%;
+        line-height: 1.2;
+        padding: 18px;                
+    }
+
+    &__submit-button {
+        height: 62px;
+        width: 264px;
+        border-radius: 8px;
+        border: 3px solid $golden;
+        font-size: 1.125rem;
+        line-height: 1;
+        font-weight: 600;
+        color: $golden;
+        text-transform: uppercase;
+        background: none;
+        transition: all .2s;
+        cursor: pointer;
+
+        &:hover {
+            background: $golden;
+            color: #1a1a1a;
+        }
+    }
+}

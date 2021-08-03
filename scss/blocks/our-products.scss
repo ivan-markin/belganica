@@ -1,0 +1,27 @@
+.our-products {    
+    position: relative;
+    padding: 73px 0 150px;
+
+    &__files {
+        display: flex;
+        margin: 40px 0 70px;
+
+        &-container {
+            display: flex;
+            align-items: center;
+            
+            &:not(:last-child) {
+                margin-right: 90px;
+            }
+
+            & img {
+                margin-right: 10px;
+            }
+
+            & a {
+                color: $golden;
+                text-decoration: underline;                                  
+            }
+        }
+    }
+}

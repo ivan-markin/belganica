@@ -1,0 +1,190 @@
+.pig-scheme {       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;    
+    margin: 0;
+
+    &__container {
+        width: 943px;
+        height: 508px;
+        background: url('../../images/pig-scheme.svg') no-repeat center;
+        background-size: contain;  
+        position: relative;            
+
+        & img:not(.pig-scheme__divider) {
+            position: absolute;
+            opacity: 0;
+            transition: opacity .1s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__caption {
+        font-size: 1.125rem;
+        line-height: 1;
+        color: #E1C5A4;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: absolute;
+        user-select: none;
+        z-index: 20;
+
+        &.carbonad {
+            top: 34px;
+            left: 314px;
+        }
+
+        &.koreyka {
+            top: 79px;
+            left: 473px;
+        }
+
+        &.okorok {
+            top: 133px;
+            left: 98px;
+        }
+
+        &.golyashka {
+            top: 309px;
+            left: 109px;
+            transform: rotate(-45deg);
+        }
+
+        &.vyrezka {
+            top: 167px;
+            left: 266px;            
+        }
+
+        &.grudinka {
+            top: 230px;
+            left: 250px;            
+            transform: rotate(2.27deg);
+        }
+        
+        &.rebra {
+            top: 218px;
+            left: 433px;            
+            transform: rotate(-12.87deg);
+        }
+
+        &.lopatka {
+            top: 225px;
+            left: 551px;            
+            transform: rotate(4.73deg);
+        }
+
+        &.rulka {
+            top: 328px;
+            left: 562px;            
+            transform: rotate(43.7deg);
+        }
+
+        &.noga {
+            top: 448px;
+            left: 608px;            
+            transform: rotate(53.64deg);
+        }
+
+        &.sheya {
+            top: 121px;
+            left: 680px;            
+            transform: rotate(-45.3deg);
+        }
+
+        &.golova {
+            top: 286px;
+            left: 771px;                        
+        }
+
+        &.ukho {
+            top: 159px;
+            left: 820px;                
+            transform: rotate(-45.3deg);        
+        }
+    }
+
+    &__divider {
+        position: absolute;
+        z-index: 20;
+
+        &.top {        
+            top: 1px;
+            left: 405px;
+        }
+
+        &.bottom {            
+            top: 205px;
+            left: 375px;
+        }
+    }    
+
+    &__golova {
+        right: 0;
+        top: 100px;
+    }
+
+    &__sheya {
+        right: 163px;
+        top: 28px;
+    }
+
+    &__ukho {
+        right: 56px;
+        top: 118px;
+    }
+    
+    &__lopatka {
+        right: 275px;
+        top: 166px;
+        z-index: 13;
+    }
+
+    &__rulka {
+        right: 278px;
+        top: 278px;
+    }
+
+    &__noga {
+        right: 264px;
+        top: 395px;
+    }
+
+    &__koreyka {
+        right: 275px;
+        top: 2px;
+    }
+
+    &__rebra {
+        right: 320px;
+        top: 124px;
+    }
+
+    &__carbonad {
+        right: 478px;
+        top: 0;
+    }
+
+    &__vyrezka {
+        right: 432px;
+        top: 137px;
+    }
+
+    &__grudinka {
+        right: 536px;
+        top: 205px;
+    }
+
+    &__okorok {
+        right: 705px;
+        top: 23px;
+    }
+
+    &__golyashka {
+        right: 717px;
+        top: 253px;
+    }
+}

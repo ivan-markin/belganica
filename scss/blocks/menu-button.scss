@@ -1,0 +1,12 @@
+.menu-button {
+    display: block;
+    width: 30px;
+    height: 24px;
+    background: url('../../images/menu-icon.svg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 0;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.communication {
+    position: relative;
+    padding: 90px 0 244px;
+
+    &__description {
+        max-width: 607px;
+    }
+
+    &__messengers {
+        display: flex;
+        flex-direction: column;
+        min-width: 320px;
+        padding-top: 25px;
+
+        & a {
+            display: flex;
+            align-items: center;
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: $golden;
+            margin-bottom: 50px;
+            text-decoration: none;            
+            
+            & svg {
+                margin-right: 26px;              
+            }
+
+            &:hover {
+                color: white;
+
+                & svg {
+                    & rect, path {
+                        stroke: white;
+                    }
+                    
+                    & .filled-path {
+                        fill: white;
+                        stroke: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &__channels {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 78px;
+    }
+}

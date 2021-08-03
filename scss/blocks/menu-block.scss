@@ -1,0 +1,57 @@
+.menu-block {    
+    display: none;    
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    top: -20px;
+    right: -35px;
+    background-color: black;
+    border-radius: 13px;
+    border: 1px solid #3A3329;
+    padding: 37px 30px 94px;
+
+    &.active {
+        display: flex;
+    }
+
+    &__close-button {
+        width: 32px;
+        height: 16px;
+        background: url('../../images/menu-close-icon.svg') no-repeat;
+        background-size: contain;
+        border: none;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    & ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+
+        & li {
+            list-style: none;            
+
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+
+            & a {
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 1;
+                color: white;
+                text-decoration: none;
+                border-bottom: 2px solid black;
+                transition: all .15s;
+
+                &:hover {
+                    border-bottom: 2px solid #C20E1A;
+                }
+            }
+        }
+    }
+}

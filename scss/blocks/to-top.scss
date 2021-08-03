@@ -1,0 +1,14 @@
+.to-top {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 31px);
+    width: 62px;
+    height: 30px;
+    background: url('../../images/to-top-arrow.svg') no-repeat;
+    background-size: contain;    
+    transition: all .2s;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}

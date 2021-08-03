@@ -1,0 +1,58 @@
+@import './normalize.scss';
+@import './variables.scss';
+@import './fonts.scss';
+@import './aos/aos.scss';
+
+// Blocks styles
+@import './blocks/header.scss';
+@import './blocks/menu-block.scss';
+@import './blocks/highlights-block.scss';
+@import './blocks/menu-button.scss';
+@import './blocks/logo.scss';
+@import './blocks/page-title.scss';
+@import './blocks/title-caption.scss';
+@import './blocks/page-description.scss';
+@import './blocks/section-title.scss';
+@import './blocks/reliable-partner.scss';
+@import './blocks/title-block.scss';
+@import './blocks/text-regular.scss';
+@import './blocks/next-section.scss';
+@import './blocks/our-products.scss';
+@import './blocks/pig-scheme.scss';
+@import './blocks/product-categories.scss';
+@import './blocks/ecology.scss';
+@import './blocks/quality.scss';
+@import './blocks/geography.scss';
+@import './blocks/our-clients.scss';
+@import './blocks/communication.scss';
+@import './blocks/contact-form.scss';
+@import './blocks/contacts.scss';
+@import './blocks/text-link.scss';
+@import './blocks/to-top.scss';
+@import './blocks/footer.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: #fff;
+    background: #000 url('../images/marble-bg.jpg') no-repeat top center;
+    background-size: contain;
+    background-color: #000;    
+}
+
+.container {    
+    width: 100%;
+    min-width: 320px;
+    // max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 40px;
+    margin: 0 auto;
+}

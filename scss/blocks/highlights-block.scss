@@ -1,0 +1,7 @@
+.highlights-block {
+    display: flex;    
+
+    & img:not(:last-child) {
+        margin-right: 20px;
+    }
+}

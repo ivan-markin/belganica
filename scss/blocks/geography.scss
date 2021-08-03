@@ -1,0 +1,183 @@
+.geography {
+    position: relative;
+    background: url('../../images/geography-bg.jpg') no-repeat;
+    background-size: cover;
+    padding: 120px 0 177px;
+
+    &__map {
+        position: relative;
+        width: 100%;
+        overflow-x: scroll;
+
+        &-image {
+            width: 1040px;
+        }
+
+        &-point {
+            position: absolute;
+
+            & img {                
+                padding: 5px;
+                transition: transform .2s;
+
+                &:hover {
+                    transform: translateY(-5px);
+
+                    & + span {
+                        opacity: 1;
+                        z-index: 100;
+                    }                    
+                }
+            }
+            
+            & span {
+                position: absolute;     
+                left: 28px;
+                top: -20px;
+                font-size: 1.25rem;
+                line-height: 1;
+                color: #F4E4D2;       
+                width: max-content;    
+                opacity: 0;
+                user-select: none;
+                transition: opacity .2s;
+                z-index: 1;
+            }
+        
+            &#kaliningrad {
+                left: 65px;
+                top: 105px;
+            }
+            
+            &#spb {
+                left: 145px;
+                top: 125px;
+                z-index: 3;
+            }
+
+            &#kursk {
+                left: 104px;
+                top: 167px;
+                z-index: 2;
+            }
+
+            &#bryansk {
+                left: 89px;
+                top: 203px;
+            }
+
+            &#novgorod {
+                left: 167px;
+                top: 159px;
+                z-index: 4;
+            }
+
+            &#moscow {
+                left: 128px;
+                top: 201px;
+                z-index: 2;
+            }
+
+            &#belgorod {
+                left: 106px;
+                top: 220px;
+            }
+
+            &#vladimir {
+                left: 167px;
+                top: 220px;
+            }
+
+            &#nNovgorod {
+                left: 195px;
+                top: 215px;
+            }
+
+            &#kazan {
+                left: 188px;
+                top: 250px;
+            }
+
+            &#samara {
+                left: 152px;
+                top: 303px;
+                z-index: 3;
+            }
+
+            &#volgograd {
+                left: 98px;
+                top: 321px;
+                z-index: 2;
+
+                & span {
+                    top: -25px;
+                    left: 0;
+                }
+            }
+
+            &#rostov {
+                left: 40px;
+                top: 313px;
+            }
+
+            &#sochi {
+                left: 46px;
+                top: 355px;
+            }
+
+            &#ufa {
+                left: 216px;
+                top: 303px;
+            }
+
+            &#chelyabinsk {
+                left: 219px;
+                top: 366px;
+            }
+
+            &#perm {
+                left: 273px;
+                top: 297px;
+            }
+
+            &#omsk {
+                left: 296px;
+                top: 348px;
+                z-index: 2;
+            }
+
+            &#novosibirsk {
+                left: 412px;
+                top: 397px;
+            }
+
+            &#krasnoyarsk {
+                left: 540px;
+                top: 385px;
+                z-index: 2;
+            }
+
+            &#ulanUde {
+                left: 673px;
+                top: 474px;
+            }
+
+            &#chita {
+                left: 727px;
+                top: 440px;
+                z-index: 2;
+            }
+
+            &#vladivostok {
+                left: 895px;
+                top: 497px;
+
+                & span {
+                    top: -35px;
+                    left: -60px;
+                }
+            }
+        }
+
+    }
+}

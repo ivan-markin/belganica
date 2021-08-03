@@ -1,0 +1,9 @@
+.text-link {
+    color: $golden;
+    text-decoration: underline;
+    transition: color .2s;
+
+    &:hover {
+        color: white;
+    }
+}
